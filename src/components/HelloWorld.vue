@@ -2,7 +2,6 @@
 import { computed } from "vue";
 import type SimpleName from "./SimpleName.vue";
 
-
 type Burrito = {
   __type__: "burrito";
 };
@@ -40,7 +39,6 @@ h3 {
 }
 
 @media (min-width: 1024px) {
-
   .greetings h1,
   .greetings h3 {
     text-align: left;
